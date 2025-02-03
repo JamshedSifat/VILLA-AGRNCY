@@ -1,3 +1,4 @@
+
 .navbar-nav{
     justify-content: space-around;
     margin: auto;
@@ -81,8 +82,18 @@ hr{
  .featured-icon span{
     color: gray;
  }
+ .main-content{
+    background-color: ghostwhite;
+ }
  .content{
     font-size: larger;
+ }
+ .content button{
+    border: none;
+    width: auto;
+    background-color:ghostwhite;
+    font-size: 30px;
+    font-weight: 500;
  }
  .content span{
     color:#ff0077;
