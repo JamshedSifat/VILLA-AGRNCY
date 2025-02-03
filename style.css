@@ -41,3 +41,49 @@
 .carousel-caption span{
     color: #ff0077;
 }
+
+/* Featured */
+
+.Featured{
+    margin:100px 0px;
+}
+.featured-title{
+   
+   padding-bottom: 50px;
+}
+.featured-title h3{
+    color: #ff0077;
+}
+.featured-title h1{
+    font-size: 50px;
+}
+
+.featured-icons{
+    background-color:whitesmoke;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+hr{
+    padding-bottom: 20px;
+}
+.featured-icon{
+    display: flex; 
+}
+.featured-icon img{
+   margin-bottom: 20px;
+}
+.featured-icon p{
+    padding-left: 30px;
+    
+    font-weight: 500;
+    text-align: left;
+ }
+ .featured-icon span{
+    color: gray;
+ }
+ .content{
+    font-size: larger;
+ }
+ .content span{
+    color:#ff0077;
+ }
