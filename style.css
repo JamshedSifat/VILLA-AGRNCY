@@ -117,3 +117,104 @@ hr{
  .text h1{
     color: white;
  }
+
+ /* Numbers section */
+ 
+ .numbers {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    
+  }
+  
+  .number-section {
+    position: relative; /* Relative positioning for circle placement */
+    background-color: #ffefe9;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto 20px auto; /* Center the cards with some bottom margin */
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    
+    
+  }
+  
+  .number-section h1 {
+    color: orangered;
+    font-size: 70px;
+    margin: 0;
+    padding-left: 30px;
+  }
+  
+  .number-section p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+    padding-left: 30px;
+  }
+  
+  .circle {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 40px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Best Deal */
+  .best-deal-section{
+    background-color: #FAFAFA;
+    margin-bottom: 30px;
+    padding-top: 70px;
+  }
+.heading p{
+color:#ff0077;
+font-size: 30px;
+
+}
+.btn-section{
+    margin: 30px 0px;
+    margin-top: 40px;
+    
+}
+.btn-section .btn{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid white;
+    
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+.cards p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.proparty-card{
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+.img img{
+    padding-top: 80px;
+    
+}
+  .text-area{
+padding-top: 20px;
+  }
+  .text-area p{
+    color: gray;
+    font-size: larger;
+  }
+  .text-area button{
+    justify-content: left;
+    background-color:rgb(255, 4, 0);
+    font-weight: 500;
+  }
+  
